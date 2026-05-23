@@ -504,10 +504,10 @@
           <div id='selected-image-container'>
             <div id='selected-image-target'></div>
             <div class='icons'>
-              <a target='_blank' id='eye-icon' href='<%- meta.permalink || meta.src %>'>
+              <a target='_blank' id='eye-icon' href='<%- meta.description %>'>
                 <img src='assets/images/icons/eye-icon.png' alt='eye icon' />
               </a>
-              <a id='download-icon' href='<%- meta.src || "#" %>' download>
+              <a target='_blank' id='download-icon' href='<%- meta.permalink || "#" %>' download>
                 <img src='assets/images/icons/download-icon.png' alt='download icon' />
               </a>
             </div>
